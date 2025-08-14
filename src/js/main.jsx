@@ -9,10 +9,18 @@ import "bootstrap"
 import '../styles/index.css'
 
 // components
-import Home from './components/Home';
+import MiNavbar from './components/MiNavbar';
+import MiJumbotron from './components/MiJumbotron';
+import Micard from './components/Micard';
+import Mifooter from './components/Mifooter';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <Home/>
+   <MiNavbar />
+   <MiJumbotron />
+   <Micard />)
+   <Mifooter />
   </React.StrictMode>,
 )
+
+
